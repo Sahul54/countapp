@@ -2,7 +2,7 @@ import { useState } from "react";
 import './App.css';
 
 function App() {
-  // useState se UI refalact krte hai....
+  // useState se UI refalact krte hai....  Go to recat documentationn and read
   const[count, setCount] = useState(0);
 
   function decreaseHandler(){
@@ -10,7 +10,6 @@ function App() {
       setCount(count - 1);
     }
     
-    // console.log(setCount);
   }
 
   function increaseHandler(){
